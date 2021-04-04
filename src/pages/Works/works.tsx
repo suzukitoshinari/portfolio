@@ -4,7 +4,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-const useStyles = makeStyles((theme: Theme) => createStyles({
+const useStyles = makeStyles((theme: Theme) => 
+  createStyles({
     root: {
       marginTop: 300,
       marginBottom: 300,
@@ -12,10 +13,11 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     },
     content: {
       marginTop: 170,
-    }
-  }));
+    },
+  }),
+);
   
-  function Works() {
+const Works:React.FC = () => {
     const classes = useStyles();
   
     return (

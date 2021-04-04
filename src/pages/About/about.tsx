@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     content: {
       marginTop: 170,
     }
-  }));
+}));
   
-  function Home() {
+function Home() {
     const classes = useStyles();
   
     return (
@@ -32,6 +32,6 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         </CardContent>
       </Card>
     );
-  }
+}
   
-  export default Home;
+export default Home;

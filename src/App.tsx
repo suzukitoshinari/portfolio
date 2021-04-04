@@ -1,17 +1,20 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import HeadBar from './components/Header/Header';
 import MainContainer from './components/Main/main';
 import Footer from './components/Footer/footer';
 
-const useStyles = makeStyles({
-  root: {
-   textAlign: "center"
-  }
-});
+const useStyles = makeStyles((theme: Theme) => 
+  createStyles({
+    root: {
+      textAlign: 'center'
+    },
+  }),
+);
 
-function App() {
+const App: React.FC = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
      <HeadBar />
@@ -19,6 +22,6 @@ function App() {
      <Footer />
     </div>
   );
-}
+};
 
 export default App;

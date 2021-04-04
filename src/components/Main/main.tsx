@@ -1,7 +1,6 @@
 import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
-import { BrowserRouter, Route, Switch} from 'react-router-dom'
-import CssBaseline from '@material-ui/core/CssBaseline';
+// import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Container from '@material-ui/core/Container';
 import About from '../../pages/About/about';
 import Skills from '../../pages/Skills/skills';
@@ -19,7 +18,6 @@ function MainContainer() {
 
   return (
     <>
-      <CssBaseline />
       <Container>
           <BrowserRouter>
             <Switch>
