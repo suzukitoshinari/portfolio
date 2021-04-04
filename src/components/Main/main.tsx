@@ -13,7 +13,7 @@ import Home from '../../pages/Home/home';
 //   },
 // }));
 
-function MainContainer() {
+const MainContainer: React.FC = () => {
   // const classes = useStyles();
 
   return (

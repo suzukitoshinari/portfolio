@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-function HeadBar() {
+const HeadBar: React.FC = () => {
   const classes = useStyles();
 
   return (

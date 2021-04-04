@@ -6,8 +6,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
     root: {
-      marginTop: 300,
-      marginBottom: 300,
+      marginTop: 150,
+      marginBottom: 150,
       height: "60vh",
     },
     content: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     }
 }));
   
-function Home() {
+const Home: React.FC = () => {
     const classes = useStyles();
   
     return (
