@@ -22,7 +22,7 @@ const Home: React.FC = () => {
     <Card className={classes.root}>
       <CardContent className={classes.content}>
         <Typography variant="h2" component="h2">
-            MY-PORTFOLIO
+          MY-PORTFOLIO
         </Typography>
         <Typography variant="body1" component="p">
           well meaning and kindly.

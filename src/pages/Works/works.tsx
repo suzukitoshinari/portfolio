@@ -22,15 +22,15 @@ const useStyles = makeStyles((theme: Theme) =>
 );
   
 const Works: React.FC = () => {
-    const classes = useStyles();
-  
-    return (
-      <Card className={classes.root}>
-        <CardContent className={classes.content}>          
-              <Work />
-        </CardContent>
-      </Card>
-    );
-  }
-  
-  export default Works;
+  const classes = useStyles();
+
+  return (
+    <Card className={classes.root}>
+      <CardContent className={classes.content}>          
+        <Work />
+      </CardContent>
+    </Card>
+  );
+}
+
+export default Works;

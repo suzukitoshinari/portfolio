@@ -27,7 +27,7 @@ const Work: React.FC = () => {
     <Card className={classes.root}>
       <CardContent className={classes.content}>
         <Typography variant="h2" component="h2">
-            Works 1
+        　Works 1
         </Typography>
         <Typography variant="body1" component="p">
         well meaning and kindly.

@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
       <Card className={classes.root}>
         <CardContent className={classes.content}>
           <Typography variant="h2" component="h2">
-              SKILLS
+            SKILLS
           </Typography>
           <Typography variant="body1" component="p">
             well meaning and kindly.

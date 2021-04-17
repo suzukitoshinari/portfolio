@@ -28,8 +28,8 @@ const useStyles = makeStyles((theme: Theme) =>
         color: "white",
         fontFamily: "游ゴシック体",
         "&:hover": {
-            transform: "scale(1.1,1.1)",
-            fontWeight: 700,
+          transform: "scale(1.1,1.1)",
+          fontWeight: 700,
         }
     },
   }),
