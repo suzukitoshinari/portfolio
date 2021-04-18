@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import HeadBar from './components/Header/Header';
-import MainContainer from './components/Main/main';
-import Footer from './components/Footer/footer';
+import MainContainer from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
 const useStyles = makeStyles((theme: Theme) => 
   createStyles({

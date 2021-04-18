@@ -2,10 +2,10 @@ import React from 'react';
 // import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Container from '@material-ui/core/Container';
-import About from '../../pages/About/about';
-import Skills from '../../pages/Skills/skills';
-import Works from '../../pages/Works/works';
-import Home from '../../pages/Home/home';
+import About from '../../pages/AboutPage/About';
+import Skills from '../../pages/SkillsPage/Skills';
+import Works from '../../pages/WorksPage/Works';
+import Home from '../../pages/HomePage/Home';
 
 // const useStyles = makeStyles((theme: Theme) => createStyles({
 //   root: {
@@ -25,8 +25,6 @@ const MainContainer: React.FC = () => {
               <Route exact path='/about' component={About} />
               <Route exact path='/skills' component={Skills} />
               <Route exact path='/works' component={Works} />
-              {/* <Route path="/404" component={NotFoundPage} />
-            <Redirect to="/404" /> */}
             </Switch>
           </BrowserRouter>
       </Container>

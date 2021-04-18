@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Work from './work';
+import Work from './Work';
 
 const useStyles = makeStyles((theme: Theme) => 
   createStyles({
