@@ -14,7 +14,6 @@ import Home from '../../pages/HomePage/Home';
 // }));
 
 const MainContainer: React.FC = () => {
-  // const classes = useStyles();
 
   return (
     <>
